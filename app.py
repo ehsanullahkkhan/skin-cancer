@@ -16,7 +16,7 @@ def load_artifacts():
 
     # Download model from Hugging Face
     model_path = hf_hub_download(
-        repo_id="zulqar78659/skin-cancer-detection-model",
+        repo_id="Ehsikhan/Skin-Cancer-Detection",
         filename="best_skin_cancer_model.keras",
         repo_type="model"
     )
